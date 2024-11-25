@@ -41,6 +41,7 @@ async def start_approve(client, message):
                 if not is_running: 
                     break
                 try:
+                    #await client.approve_chat_join_requests(chat_id, request.user.id) #Use this line if you want to accept all requests by providing a single start command!
                     await client.approve_chat_join_requests(chat_id, request.user.id)
                     await asyncio.sleep(approve_delay) 
                 except FloodWait as t:
