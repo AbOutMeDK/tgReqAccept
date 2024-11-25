@@ -1,0 +1,4 @@
+PyroTGFork==2.1.32.15
+TgCrypto
+pyromod==1.5
+aiohttp==3.8.3
