@@ -34,12 +34,12 @@ Once the UserBot is running and you are logged into your Telegram account (the o
 **Command Prefixes:** `.`, `!`, `/`
 
 * **To START accepting requests for a channel:**
-    * `.run [channel_username_or_id]`
-    * `!run [channel_username_or_id]`
-    * `/run [channel_username_or_id]`
-    * `.approve [channel_username_or_id]`
-    * `!approve [channel_username_or_id]`
-    * `/approve [channel_username_or_id]`
+    * `.run`
+    * `!run`
+    * `/run`
+    * `.approve`
+    * `!approve`
+    * `/approve`
 
     *(Note: You might need to specify which channel the bot should work on if it's not hardcoded. If it processes for a pre-configured channel, the `[channel_username_or_id]` part might not be needed.)*
 
